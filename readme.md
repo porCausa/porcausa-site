@@ -2,8 +2,10 @@
 
 <h3>Corporate site</h3>
 
-<p>Pending</p>
+<h4>Pending</h4>
 
-<ul>Final texts</ul>
+<ul>Review final texts</ul>
+<ul>Add content pending</ul>
 <ul>Fonts blurry on iPad</ul>
 <ul>Changes in the navigation menu to accomodate projects and research</ul>
+<ul>Link to social networks</ul>
