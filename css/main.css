@@ -22,11 +22,10 @@ body {
 
 .row-fluid {
   text-align: left;
-  padding:0 20px 0 20px;
 }
 
 .row-fluid p {
-  width:90%;
+  padding:0 20px 0 0;
 }
 
 .row-fluid a {
