@@ -25,7 +25,7 @@ body {
 }
 
 .row-fluid p {
-  padding:0 20px 0 0;
+  padding:0 20px 10px 0;
 }
 
 .row-fluid a {
@@ -77,7 +77,7 @@ small {
 }
 
 hr {
-  border:0px solid #ededed;padding:20px 0 20px 0;
+  border:0px solid #ededed;padding:10px 0 10px 0;
 }
 
 a.button{ min-width: 120px; letter-spacing: 1.6px;padding:5px 20px; border-radius:6px;color:#fff; background: #3794d7;
@@ -93,32 +93,17 @@ p a.button{
   margin:40px 0 20px 0;
 }
 
+.article p.twitter {
+  padding: 0;
+  margin:0;
+  font-size: 85%;
+  font-weight: normal;
+}
+
 .article_news a.ma {
   font-weight: 800;
   font-size: 120%;
   line-height: 1em;
-}
-
-p .ss-social-circle {
-    border:0;
-    font-size:30px;
-    letter-spacing: 12px;
-    margin:0;
-    padding:0;
-}
-
-p .ss-social {
-  padding-right: 10px;
-  font-size: 18px;
-}
-
-.ss-icon {
-    border:0;
-    font-size:20px;
-    letter-spacing: 12px;
-    color:#888;
-    margin:0;
-    padding: 0;
 }
 
 h1 {
@@ -321,7 +306,7 @@ h3 strong {
 .navbar-inverse .brand, .navbar-inverse .nav > li > a {
   text-shadow:none;
   font-weight: normal;
-  color:#2281cf;
+  color:#444;
   font-size: 13px;
 }
 
@@ -406,6 +391,16 @@ p.credits_bottom {
 p.credits_bio {
   font-size: 80%;
   text-align: left;
+}
+
+a [class^="icon-"], a [class*=" icon-"] {
+  font-size: 25px;
+  line-height: 2.5em;
+  padding-right: 40px;
+}
+
+a:hover [class^="icon-"], a:hover [class*=" icon-"] {
+  color: #999;
 }
 
 .caption {
