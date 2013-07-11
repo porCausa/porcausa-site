@@ -35,7 +35,8 @@ body {
 
 .container_headline {
  padding:100px 0 20px 0;
- margin:0;width: 100%;
+ margin:0;
+ width: 100%;
 }
 
 .container_reintro {
@@ -259,13 +260,18 @@ h3 strong {
   margin:0 auto;
 }
 
+.nav {
+   float: none;
+    display:inline-block;
+    text-align: center;
+}
+
 .navbar {
    word-spacing: 5px;
    position: absolute;
    font-size: 13px;
    border:none;
    margin: 0 auto;
-   text-align: center;
   }
 
   .navbar .nav {
@@ -276,6 +282,7 @@ h3 strong {
 
 .navbar-inner {
   background: none;
+  text-align:center;
 }
 
 .navbar-inverse .navbar-inner {
@@ -379,7 +386,6 @@ h3 strong {
 }
 
 .dropdown-menu > li > a {
-  color:#2281cf;
 }
 
 p.credits_bottom {
