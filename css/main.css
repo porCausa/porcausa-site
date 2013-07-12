@@ -1,7 +1,7 @@
 body {
   margin:0 auto; 
   font-family: "open-sans",sans-serif;
-  color:#444;
+  color:#516066;
   font-weight:normal; 
   font-size: 13px;
   word-spacing: 1.5px;
@@ -25,7 +25,7 @@ body {
 }
 
 .row-fluid p {
-  padding:0 20px 10px 0;
+  padding:0 50px 10px 0;
 }
 
 .row-fluid a {
@@ -42,6 +42,7 @@ body {
 .container_reintro {
  padding:80px 0 20px 0;
  margin:0;
+ color: #333332;
 }
 
 .container_credits {
@@ -81,13 +82,32 @@ hr {
   border:0px solid #ededed;padding:10px 0 10px 0;
 }
 
-a.button{ min-width: 120px; letter-spacing: 1.6px;padding:5px 20px; border-radius:6px;color:#fff; background: #3794d7;
-  margin:0 5px; display: inline-block; text-decoration: none; cursor: pointer; position: relative; height: 40px; overflow: hidden; 
-  z-index: 99; font-size: 16px; line-height: 40px;transition:all 300ms ease-out; -webkit-transition: all 200ms ease-out; 
+a.button{ min-width: 120px; 
+  letter-spacing: 1.6px;
+  padding:5px 30px;
+   border-radius:2px;
+   color:#999;
+   border: 1px solid #d7d7d7;
+   background: #f7f7f7;
+   box-shadow: inset 1px 1px 0 #fff;
+   margin:0 5px; 
+   display: inline-block; 
+   text-decoration: none; 
+   cursor: pointer; 
+   position: relative; 
+   height: 60px; 
+   overflow: hidden; 
+   z-index: 99;
+   font-size: 16px;
+   line-height: 60px;
+   transition:all ease-out 150ms;
+   -webkit-transition: all ease-out 150ms; 
 }
 
 a.button:hover{
-  background:#2a6d9f;
+  background:#8497a6;
+  box-shadow: none;
+  color: #fff;
 }
 
 p a.button{
@@ -133,6 +153,7 @@ h2 {
    text-align: left;
    margin:20px 10px 0 0;
    font-weight: normal;
+   color: #333332;
 }
 
 .article img {
@@ -227,7 +248,7 @@ h3 strong {
   color:#8497a6;
   font-size: 20px;
   text-align: center;
-  padding: 35px 0 35px 0;
+  padding: 35px 0 15px 0;
   line-height: 1.5em;
 }
 
@@ -262,8 +283,7 @@ h3 strong {
 
 .nav {
    float: none;
-    display:inline-block;
-    text-align: center;
+   text-align: center;
 }
 
 .navbar {
@@ -271,7 +291,6 @@ h3 strong {
    position: absolute;
    font-size: 13px;
    border:none;
-   margin: 0 auto;
   }
 
   .navbar .nav {
@@ -282,7 +301,6 @@ h3 strong {
 
 .navbar-inner {
   background: none;
-  text-align:center;
 }
 
 .navbar-inverse .navbar-inner {
@@ -296,7 +314,7 @@ h3 strong {
   border: 0;
   box-shadow: none;
   font-weight: bold;
-  color: #444;
+  color: #676b74;
 }
 
 .navbar .nav > li > a {
@@ -313,7 +331,7 @@ h3 strong {
 .navbar-inverse .brand, .navbar-inverse .nav > li > a {
   text-shadow:none;
   font-weight: normal;
-  color:#444;
+  color:#676b74;
   font-size: 13px;
 }
 
