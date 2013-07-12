@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>porCausa: investigación social y periodismo sobre la pobreza</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+         <!-- css -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--     typekit -->
+        <script type="text/javascript" src="//use.typekit.net/lby0xgq.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+        <!-- js -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    
+    </head>
+    <body>
+   
+  <!-- nav bar bootstrap -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+          <div class="nav">
+            <ul class="nav">
+              <li><a href="../index.html">Inicio</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fundación<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="../content/investigacion.html">Investigación</a></li>
+                  <li><a href="../content/equipo.html">Equipo</a></li>
+                 <li><a href="../content/patronato.html">Patronato</a></li>
+                   <li><a href="../content/red.html">Red</a></li>
+                  <li><a href="../content/estatutos.html">Estatutos</a></li>
+                  <!-- <li><a href="memoria.html">Memoria</a></li> -->
+                </ul>
+              </li>
+             <li><a href="../content/proyectos.html">Proyectos</a></li>
+               <li  class="active"><a href="">Blog</a></li>
+              <li><a href="../content/contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+
+
+ <!-- intro -->
+       <div class="container_headline">
+        <h3><strong><a href="../index.html">por(C)ausa</a></strong> blog</h3>
+          <div class="content">
+           <!-- <div class="article">
+           <p class="reintro"><strong>Blog</strong></p>
+          </div> -->
+        </div>
+      </div> 
+
+
+      <!-- text: 1-->
+       <div class="container">
+          <div class="content">
+             <div class="article">
+        <h2><strong>Hello world: Nerd blogging with Jekyll</strong></h2>
+        <p><p>We&#8217;re a new team, and we&#8217;re trying something new (at least for us) as a blog publishing platform: Jekyll, a generator that creates simple, static websites. We&#8217;re <a href='http://developmentseed.org/blog/2011/09/09/jekyll-github-pages/'>not breaking any ground</a> with this choice, of course, but we liked the idea of launching a blog that&#8217;s <a href='http://github.com/nprapps/nprapps.github.com'>open source</a> &#8211; both its code and also its content.</p>
+
+<p>This initial post is an introduction to Jekyll for the members of our team &#8211; and anyone else who wants to get started with the tool and/or steal our simple code for their own site.</p>
+
+<h3 id='getting_started'>Getting started</h3>
+
+<p>Jekyll eliminates the need for a traditional content management system, like WordPress. Instead, we&#8217;re creating plain-old HTML pages and serving them from GitHub Pages, where we host our blog code.</p>
+
+<p>To get started, install the Ruby gem with <a href='https://github.com/mojombo/jekyll/wiki/install'>these instructions</a>.</p>
+
+<p>Next, familiarize yourself with the <a href='https://github.com/mojombo/jekyll/wiki/Usage'>usage</a> and <a href='https://github.com/mojombo/jekyll/wiki/Configuration'>configuration</a> documentation provided by Jekyll. There&#8217;s more detail in there about further customizing a site, which we&#8217;ll do over time (what we have now is super basic).</p>
+
+<p>As you&#8217;ll see, Jekyll uses your source directory templates and converts your <a href='http://daringfireball.net/projects/markdown/syntax'>Markdown</a> text and <a href='https://github.com/Shopify/liquid/wiki/Liquid-for-Designers'>Liquid</a> tags to build a static website. The website &#8211; and any posts you create &#8211; then get published with a <code>git push</code> to GitHub.</p>
+
+<h3 id='our_configuration'>Our configuration</h3>
+
+<p>Our templates are built from scratch on top of the <a href='http://twitter.github.com/bootstrap/'>Twitter Bootstrap</a> framework, giving us responsive pages that we&#8217;ve customized for Jekyll. Your source directory should like something this:</p>
+
+<pre><code>.
+|-- _config.yml
+|-- _includes
+|-- _layouts
+|   |-- default.html
+|   `-- post.html
+|-- _posts
+|   |-- 2012-11-08-npr-news-apps-blog.markdown
+|-- _site
+|-- about
+|   |-- index.html
+|-- bootstrap
+`-- CNAME
+|-- css
+|-- img
+`-- index.html
+`-- README.md</code></pre>
+
+<p>This structure is explained in the <a href='https://github.com/mojombo/jekyll/wiki/Usage'>usage documentation</a>, but here are the highlights. Never mind &#95;includes for now. The &#95;layout folder has the templates. We will inject posts into them with the <code>&#123;&#123; content &#125;&#125;</code> Liquid tag. The &#95;posts folder contains, well, posts. Notice the structure of the file names. The date and title are used for the default permalinks structure, and they also define the post date. The &#95;site folder contains the site generated when you run Jekyll.</p>
+
+<h3 id='adding_content'>Adding content</h3>
+
+<p>Below is the Markdown of <a href='http://blog.apps.npr.org/2012/11/08/npr-news-apps-blog.html'>this post</a>:</p>
+<script src='https://gist.github.com/3745792.js?file=post'>
+</script>
+<p>The <a href='http://github.com/mojombo/jekyll/wiki/YAML-Front-Matter'>YAML Front Matter</a> at the top determines which layout file is used (in this case a post) as well as the title, description and author. You can add more information here, like categories and tags, for example, but we haven&#8217;t built out those features yet. Also notice that these files use Markdown &#8211; <code>[team](/about/)</code> creates a hyperlink to our about page, for example &#8211; that Jekyll will churn out as HTML later.</p>
+
+<p>Below is the HTML of the index.html file, which is the <code>&#123;&#123; content &#125;&#125;</code> we inject into the default.html template for displaying the home page:</p>
+<script src='https://gist.github.com/3745411.js?file=index.html'>
+</script>
+<p>Above <a href='http://github.com/mojombo/jekyll/wiki/YAML-Front-Matter'>YAML Front Matter</a> selects the default.html template and defines the title element. We&#8217;re creating a reverse chronological list of stories, with headlines, dates, author names, and descriptions (here limited to the four most recent posts).</p>
+
+<p>We add headlines linking to the corresponding posts with <code>&#123;&#123; post.url &#125;&#125;</code> and <code>&#123;&#123; post.title &#125;&#125;</code> Liquid output markup. We do the same with the date, and we&#8217;ve defined the display format using <a href='http://liquid.rubyforge.org/classes/Liquid/StandardFilters.html#M000012'>Liquid&#8217;s filter syntax</a>. (As we add posts to the &#95;posts directory, and <code>git push</code> them, more will display on the live home page). Notice the &#8220;#disqus_thread&#8221; attached to the post URL. That gives us a comment count.</p>
+
+<p>Below is the HTML for the post.html template. Posts also get injected into the default.html template, but obviously with a deferent design. It too use Liquid output markup to get content onto the static page when Jekyll runs:</p>
+<script src='https://gist.github.com/3757582.js?file=post.html'>
+</script>
+<h3 id='publishing_to_github'>Publishing to GitHub</h3>
+
+<p>We&#8217;ve created a GitHub repo called &#8221;<a href='https://github.com/nprapps/nprapps.github.com'>nprapps.github.com</a>&#8221; (btw: see documentation for publishing to a custom domain <a href='https://help.github.com/articles/setting-up-a-custom-domain-with-pages'>here</a>). Inside that directory on your local machine, run <code>jekyll</code>. That will build the site. As you edit, the site will be automatically rebuilt, a process you&#8217;ll notice in the Terminal. To see the site running locally, execute <code>jekyll --server</code>, and then point your browser to <code>localhost:4000</code>.</p>
+
+<p>When you&#8217;re satisfied with your post, commit the code and use <code>git push</code> to publish. The site will be updated online soon after.</p>
+<em>Thanks to our former interns, <a href='http://twitter.com/afwong'>Angela Wong</a> and <a href='http://twitter.com/KevinUhrm'>Kevin Uhrmacher</a>, for designing the site.</em></p>
+
+
+    <hr>
+    <div id="disqus_thread" style="width:95%"></div>
+   
+
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'nprnewsappsblog'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+
+          </div>
+        </div>
+
+     
+    <!-- contact & credits-->
+       <div class="container_credits">
+          <div class="content">
+           <div class="article">
+            <p class="credits_bottom">c/ Marqués de la Ensenada 2, 6º (Madrid, España) +34 91 000 00 00
+            <br><a href="">porcausa [at] gmail [dot] com</a>
+          </p>
+
+
+  
+       <!-- bootstrap -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    
+    </body>
+</html>
