@@ -1,7 +1,7 @@
 body {
   margin:0 auto; 
   font-family: "open-sans",sans-serif;
-  color:#516066;
+  color:#666;
   font-weight:normal; 
   font-size: 13px;
   word-spacing: 1.5px;
@@ -42,7 +42,6 @@ body {
 .container_reintro {
  padding:80px 0 20px 0;
  margin:0;
- color: #333332;
 }
 
 .container_credits {
