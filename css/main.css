@@ -105,9 +105,8 @@ a.button{ min-width: 120px;
 }
 
 a.button:hover{
-  background:#8497a6;
+  background:#fff;
   box-shadow: none;
-  color: #fff;
 }
 
 p a.button{
@@ -175,7 +174,7 @@ h3 {
   line-height:45px;
   padding:0;
   text-align:center;
-  color:#8497a6;
+  color:#e1e1e1;
   font-size: 45px;
 }
 
