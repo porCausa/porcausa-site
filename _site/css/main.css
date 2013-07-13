@@ -303,8 +303,8 @@ h3 strong {
 }
 
 .navbar-inverse .navbar-inner {
-  background: #fff;
-  border: none;
+  background: none;
+  border-bottom: 1px dotted #ededed;
   box-shadow: none;
 }
 
@@ -313,7 +313,7 @@ h3 strong {
   border: 0;
   box-shadow: none;
   font-weight: bold;
-  color: #676b74;
+  color: #6d8ac4;
 }
 
 .navbar .nav > li > a {
@@ -321,8 +321,8 @@ h3 strong {
 }
 
 .navbar-inverse .brand, .navbar-inverse .nav > li > a:hover{
-  color: #999;  
-  background: none;
+  color: #333332;  
+  background: #ededed;
   border-radius: 0;
   transition:all 300ms ease-out;
 }
@@ -330,8 +330,8 @@ h3 strong {
 .navbar-inverse .brand, .navbar-inverse .nav > li > a {
   text-shadow:none;
   font-weight: normal;
-  color:#676b74;
-  font-size: 13px;
+  color:#6d8ac4;
+  font-size: 12px;
 }
 
 .dropdown-menu {
@@ -403,6 +403,7 @@ h3 strong {
 }
 
 .dropdown-menu > li > a {
+  color:#6d8ac4;
 }
 
 p.credits_bottom {
