@@ -5,6 +5,7 @@ body {
   font-weight:normal; 
   font-size: 13px;
   word-spacing: 1.5px;
+  border-top: 4px solid #bfbfbf;
 }
 
 .container {
@@ -81,30 +82,30 @@ hr {
   border:0px solid #ededed;padding:10px 0 10px 0;
 }
 
-a.button{ min-width: 120px; 
+a.button{ min-width: 100px; 
   letter-spacing: 1.6px;
   padding:5px 30px;
-   border-radius:2px;
-   color:#999;
-   border: 1px solid #d7d7d7;
-   background: #f7f7f7;
+   border-radius:4px;
+   color:#444;
+   border-bottom: 3px solid #bfbfbf;
+   background: #e5e5e5;
    box-shadow: inset 1px 1px 0 #fff;
    margin:0 5px; 
    display: inline-block; 
    text-decoration: none; 
    cursor: pointer; 
    position: relative; 
-   height: 60px; 
+   height: 45px; 
    overflow: hidden; 
    z-index: 99;
-   font-size: 16px;
-   line-height: 60px;
+   font-size: 15px;
+   line-height: 45px;
    transition:all ease-out 150ms;
    -webkit-transition: all ease-out 150ms; 
 }
 
 a.button:hover{
-  background:#fff;
+  background:#ededed;
   box-shadow: none;
 }
 
@@ -282,6 +283,13 @@ h3 strong {
 .nav {
    float: none;
    text-align: center;
+   height:50px;
+}
+
+.navbar-inverse .divider-vertical {
+  border-color: #fff;
+  border-width: 1px;
+  height:100%;
 }
 
 .navbar {
@@ -289,6 +297,7 @@ h3 strong {
    position: absolute;
    font-size: 13px;
    border:none;
+   padding-top:5px;
   }
 
   .navbar .nav {
@@ -303,7 +312,7 @@ h3 strong {
 
 .navbar-inverse .navbar-inner {
   background: none;
-  border-bottom: 1px dotted #ededed;
+  border-bottom: none;
   box-shadow: none;
 }
 
