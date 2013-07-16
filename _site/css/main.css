@@ -83,30 +83,30 @@ hr {
 }
 
 a.button{ min-width: 100px; 
+  border: 1px solid #b1b1b1;
+  border-top-color: #bfbfbf;
+  border-bottom-color: #aaa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e4e4e4));
+  -webkit-box-shadow:0 1px 0 #ddd,inset 0 1px 0 rgba(255,255,255,0.2);
+  box-shadow: 0 1px 0px #efefef,inset 0 1px 0px #fff;
+  color: #444;
+  text-shadow: #fff 0 1px 0;
   letter-spacing: 1.6px;
   padding:5px 30px;
-   border-radius:4px;
-   color:#444;
-   border-bottom: 3px solid #bfbfbf;
-   background: #e5e5e5;
-   box-shadow: inset 1px 1px 0 #fff;
-   margin:0 5px; 
-   display: inline-block; 
-   text-decoration: none; 
-   cursor: pointer; 
-   position: relative; 
-   height: 45px; 
-   overflow: hidden; 
-   z-index: 99;
-   font-size: 15px;
-   line-height: 45px;
-   transition:all ease-out 150ms;
-   -webkit-transition: all ease-out 150ms; 
+  margin:0 5px; 
+  display: inline-block; 
+  text-decoration: none; 
+  position: relative; 
+  height: 45px; 
+  overflow: hidden; 
+  z-index: 99;
+  font-size: 15px;
+  line-height: 45px;
+  border-radius: 6px;
 }
 
 a.button:hover{
-  background:#ededed;
-  box-shadow: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#ededed));
 }
 
 p a.button{
@@ -132,7 +132,7 @@ h1 {
   font-weight: bold;
   text-align:center;
   letter-spacing: 0px;
-  padding:50px 0 45px 0;
+  padding:60px 0 40px 0;
 }
 
 h1 a {
@@ -214,6 +214,7 @@ h3 strong {
   font-size: 25px;
   text-align: center;
   line-height:1.6em;
+  color: #3e4248;
 }
 
 .article p.reintro {
@@ -287,17 +288,16 @@ h3 strong {
 }
 
 .navbar-inverse .divider-vertical {
-  border-color: #fff;
-  border-width: 1px;
+  border-width: 0px;
   height:100%;
 }
 
 .navbar {
    word-spacing: 5px;
    position: absolute;
-   font-size: 13px;
+   font-size: 14px;
    border:none;
-   padding-top:5px;
+   padding-top:15px;
   }
 
   .navbar .nav {
@@ -325,7 +325,7 @@ h3 strong {
 }
 
 .navbar .nav > li > a {
-  padding:11px 15px 10px;
+  padding:11px 25px 10px;
 }
 
 .navbar-inverse .brand, .navbar-inverse .nav > li > a:hover{
@@ -339,7 +339,7 @@ h3 strong {
   text-shadow:none;
   font-weight: normal;
   color:#6d8ac4;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .dropdown-menu {
@@ -448,29 +448,31 @@ a:hover [class^="icon-"], a:hover [class*=" icon-"] {
   padding:0;
 }
 
-/*queries for phones*/
+/*phones*/
 
 @media screen and (max-device-width: 480px){
 
-  .content {max-width: 95%;}
+  .content {max-width: 98%;}
 
   .navbar {word-spacing: 0;position: absolute;font-size: 12px;border:none;margin: 0 auto;text-align: center;}
 
-  .navbar .nav > li > a {padding: 5px;}
+  .navbar .nav > li > a {padding: 8px;font-size: 11px}
 
   h1 {
-    font-size: 60px;padding:30px 0 30px 0;}
+    font-size: 50px;padding:30px 0 30px 0;}
 
   h3 {
-    font-size: 40px;padding:0 0 15px 0;}
+    font-size: 35px;padding:0 0 15px 0;}
 
   img.bio {display: none;}
+
+  .article p.intro {font-size: 17px}
 
   .article p.reintro {font-size: 16px;}
 
 }
 
-/*queries for tablets*/
+/*tablets*/
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait){
   .content {max-width: 90%}
