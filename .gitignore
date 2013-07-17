@@ -1,1 +1,5 @@
 .DS_Store
+_includes
+_layouts
+_posts
+_site
