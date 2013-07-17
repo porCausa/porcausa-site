@@ -19,7 +19,7 @@ hr {
 .content_footer {
 	bottom:0;
 	background: #1a1a1a;
-	font-size: 10px;
+	font-size: 12px;
 	margin:60px 0 0 0;
 }
 
@@ -35,7 +35,7 @@ h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 5em;
 	line-height: 20px;
-	padding:20px 0 40px 0;
+	padding:50px 0 40px 0;
 }
 
 .panel h2 {
@@ -77,7 +77,7 @@ button.large, .button.large {
 p img {
 	max-width:200px;
 	float: right;
-	padding: 20px;
+	padding: 35px;
 
 }
 
@@ -142,6 +142,7 @@ p span.description {
 .top-bar{
 	background:#fff;
 }
+
 .contain-to-grid {
 	background: #fff;
 }
@@ -152,8 +153,8 @@ p span.description {
 }
 
 .top-bar-section ul li.hover > a {
-	background: #efefef;
-	color:#444;
+	background: #999;
+	color:#ededed;
 }
 
 .top-bar-section li a:not(.button) {
@@ -172,3 +173,34 @@ p span.description {
 	border-color: rgba(100, 100, 100, 0.5) transparent transparent transparent;
 }
 
+.top-bar .toggle-topbar.menu-icon a span {
+	color: #1a1a1a;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+	color: #1a1a1a;
+}
+.top-bar.expanded .title-area {
+	background: #fff;
+	border-bottom: 1px solid #ededed;
+}
+
+/*media queries phones*/
+
+@media screen and (max-device-width: 480px){
+
+  .row {width:95}
+  h1 {font-size: 2em;}
+}
+
+/*tablets*/
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait){
+  .row {width:95%;}
+
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape){
+ .row {width:95%;}
+
+}
