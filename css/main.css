@@ -9,16 +9,23 @@ hr {
 	border: 2px solid #fff;
 }
 
+.content_intro {
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	padding:40px 0 40px 0;
+	margin:30px 0 0 0;
+}
+
 .content_summary {
 	background: #e5e9ec;
 	border: 1px solid #e6e6e6;
-	padding:80px 0 80px 0;
-	margin:20px 0 60px 0;
+	padding:20px 0 80px 0;
+	margin:0 0 60px 0;
 }
 
 .content_footer {
 	bottom:0;
-	background: #1a1a1a;
+	background: #333;
 	font-size: 12px;
 	margin:100px 0 0 0;
 }
@@ -36,6 +43,7 @@ h1 {
 	font-size: 5em;
 	line-height: 20px;
 	padding:50px 0 10px 0;
+	color: #fc2a7c;
 }
 
 .panel h2 {
@@ -46,7 +54,11 @@ h1 {
 
 h2 a {
 	font-size: 40px;
-	color: #fc2a7c;;
+	color: #fc2a7c;
+}
+
+h2 a:hover {
+	color: #fc2a7c;
 }
 
 h2.subheader {
@@ -68,8 +80,10 @@ h3 {
 }
 
 h4 {
-	color: #8497a6;
-	font-weight: normal;
+	color: #323232;
+	font-weight: 100;
+	letter-spacing: 1px;
+	line-height: 35px;
 }
 
 h4.subheader {
@@ -94,6 +108,11 @@ p img {
 	float: right;
 	padding: 50px 35px 35px 35px;
 
+}
+
+p.titular {
+	line-height:0;
+	font-size: 110%;
 }
 
 p span.description {
@@ -138,7 +157,7 @@ p span.description {
 }
 
 .panel_footer {
-	background:#1a1a1a;
+	background:#333;
 	color: #fff;
 	padding: 80px 0 40px 0;
 	text-align: center;
