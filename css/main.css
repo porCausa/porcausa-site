@@ -65,6 +65,10 @@ h3 {
 	display:inline;
 }
 
+h4 {
+	color: #8497a6;
+}
+
 h4.subheader {
 	font-size: 1.2em;
 }
