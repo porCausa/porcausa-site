@@ -53,6 +53,10 @@ h1 {
 	color: #fc2a7c;
 }
 
+h2, h3, h4, h5, h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
 .panel h2 {
 	text-align: center;
 	font-size: 35px;
@@ -60,6 +64,7 @@ h1 {
 }
 
 h2 a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 40px;
 	color: #fc2a7c;
 }
