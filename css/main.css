@@ -1,7 +1,11 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	color:#3a3a3a !important;
+	color:#3a3a3a;
+	background: #fcfcfc;
+}
 
+.row {
+	max-width: 850px;
 }
 
 hr {
@@ -9,19 +13,14 @@ hr {
 }
 
 .content_logo {
-	/*background: #fdfdfd;*/
-	/*border-bottom: 1px solid #ededed;*/
+
 }
 
 .content_intro {
-	background: #fff;
-	/*border: 1px solid #e6e6e6;*/
 	padding:60px 0 0 0;
 }
 
 .content_summary {
-/*	background: #e5e9ec;*/
-	/*border: 1px solid #e6e6e6;*/
 	padding:0 0 40px 0;
 	margin:0 0 0 0;
 }
@@ -73,7 +72,6 @@ h5 {
 .panel h2 {
 	text-align: left;
 	font-size: 35px;
-	color: #e1e1e1;
 }
 
 h2 a {
@@ -97,11 +95,10 @@ h2.subheader {
 
 h3 {
 	color: #3e4248;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	line-height: 35px;
-	font-weight: normal;
+	font-weight: 400;
 	text-align: left;
-	display:inline;
 }
 
 h4 {
@@ -128,16 +125,15 @@ button.large, .button.large > a:hover {
 	background: #444;
 }
 
-p img {
-	max-width:200px;
-	float: right;
-	padding: 50px 35px 35px 35px;
-
+p.titular {
+	line-height:25px;
+	font-size: 110%;
 }
 
-p.titular {
-	line-height:0;
-	font-size: 110%;
+p.team img {
+	max-width:150px;
+	padding: 15px;
+	float: right;
 }
 
 p span.description {
@@ -152,7 +148,7 @@ p.contact {
 /*panels*/
 
 .panel {
-	background: #fff;
+	background: none;
 	border:0;
 	margin: 20px 0 20px 0;
 }
@@ -161,6 +157,12 @@ p.contact {
 	padding: 40px 0 0 0;
 	margin:0;
 	text-align: center;
+}
+
+.panel_head {
+	background: none;
+	border:0;
+	margin: 40px 0 0 0;
 }
 
 .panel_intro {
@@ -195,7 +197,6 @@ p.contact {
 
 .panel_news p.news {
 	padding:0 40px 40px 0;
-	font-weight: 200;
 }
 
 .panel_footer {
@@ -209,13 +210,12 @@ p.contact {
 .panel_projects {
 	border: 1px solid #e5e9ec;
 	padding: 35px;
-	margin-bottom: 30px;
+	margin: 30px 0 30px 0;
 }
 
 .panel_team {
 	/*border: 1px solid #e5e9ec;*/
-	padding: 35px 35px 35px 15px;
-	margin-bottom: 10px;
+	padding: 40px 30px 20px 0;
 }
 
 .panel_projects p img {
@@ -228,6 +228,9 @@ p.contact {
 .top-bar{
 	background:#fff;
 	margin-bottom: 0;
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
 }
 
 .top-bar-section ul li.active > a {
@@ -254,6 +257,14 @@ p.contact {
 	border: 0;
 	background: #fff;
 	padding: 0 10px 0 10px;
+}
+
+.top-bar-section .dropdown li a {
+	-webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+	margin:0;
+
 }
 
 .top-bar-section .has-dropdown > a:after{
