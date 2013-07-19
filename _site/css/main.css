@@ -1,0 +1,293 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#3a3a3a !important;
+
+}
+
+hr {
+	border: 2px solid #fff;
+}
+
+.content_logo {
+	/*background: #fdfdfd;*/
+	/*border-bottom: 1px solid #ededed;*/
+}
+
+.content_intro {
+	background: #fff;
+	/*border: 1px solid #e6e6e6;*/
+	padding:60px 0 0 0;
+}
+
+.content_summary {
+/*	background: #e5e9ec;*/
+	/*border: 1px solid #e6e6e6;*/
+	padding:0 0 40px 0;
+	margin:0 0 0 0;
+}
+
+.content_footer {
+	bottom:0;
+	font-size: 12px;
+	margin:100px 0 0 0;
+	color: #444;
+}
+
+.content_search {
+	background: #dfdfdf;
+	padding:40px 0 40px 0;
+	margin: 0 0 60px 0;
+	border-bottom: 1px solid #ededed;
+}
+
+label {
+	color: #999;
+}
+
+a {
+	color: #fc2a7c;
+}
+
+a:hover {
+	color: #444;
+}
+
+h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 5em;
+	line-height: 20px;
+	padding:50px 0 10px 0;
+	color: #fc2a7c;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h5 {
+	font-weight: 700;
+	margin: 0 0 60px 0;
+	text-align: center;
+}
+
+.panel h2 {
+	text-align: left;
+	font-size: 35px;
+	color: #e1e1e1;
+}
+
+h2 a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	color: #fc2a7c;
+}
+
+h2 a:hover {
+	color: #fc2a7c;
+}
+
+h2.subheader {
+	font-size: 1.5em;
+	color: #444;
+	line-height: 30px;
+	padding:0 0 60px 0;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+h3 {
+	color: #3e4248;
+	font-size: 1.4em;
+	line-height: 35px;
+	font-weight: normal;
+	text-align: left;
+	display:inline;
+}
+
+h4 {
+	color: #323232;
+	font-weight: 100;
+	letter-spacing: 1px;
+	line-height: 35px;
+}
+
+h4.subheader {
+	font-size: 1.2em;
+}
+
+button.large, .button.large {
+	font-size: 14px;
+	font-weight: normal;
+	padding: 20px 40px 20px 40px;
+	border:0;
+	border-radius: 4px;
+	letter-spacing: 2px;
+}
+
+button.large, .button.large > a:hover {
+	background: #444;
+}
+
+p img {
+	max-width:200px;
+	float: right;
+	padding: 50px 35px 35px 35px;
+
+}
+
+p.titular {
+	line-height:0;
+	font-size: 110%;
+}
+
+p span.description {
+	font-size: 22px;
+	font-weight: 200;
+}
+
+p.contact {
+	padding: 40px;
+}
+
+/*panels*/
+
+.panel {
+	background: #fff;
+	border:0;
+	margin: 20px 0 20px 0;
+}
+
+.panel_logo {
+	padding: 40px 0 0 0;
+	margin:0;
+	text-align: center;
+}
+
+.panel_intro {
+	border:0;
+	margin: 20px 0 20px 0;
+}
+
+.panel_summary {
+	font-size: 90%;
+	float: right;
+	margin: 40px 0 40px 0;
+}
+
+.panel_headline {
+	padding: 40px 20px 30px 0;
+	font-size: 17px;
+}
+
+.panel_search {
+	color: #6c7479;
+	padding: 0;
+	font-size: 17px;
+	margin:0 0 40px 0;
+}
+
+.panel_news {
+	padding-top: 20px;
+	margin-bottom: 20px;
+	font-size: 16px;
+
+}
+
+.panel_news p.news {
+	padding:0 40px 40px 0;
+	font-weight: 200;
+}
+
+.panel_footer {
+	color: #444;
+	padding: 80px 0 40px 0;
+	text-align: center;
+	height: 200px;
+
+	}
+
+.panel_projects {
+	border: 1px solid #e5e9ec;
+	padding: 35px;
+	margin-bottom: 30px;
+}
+
+.panel_team {
+	/*border: 1px solid #e5e9ec;*/
+	padding: 35px 35px 35px 15px;
+	margin-bottom: 10px;
+}
+
+.panel_projects p img {
+	float: left;
+	padding:20px 30px 0 0;
+}
+
+/*nav bar*/
+
+.top-bar{
+	background:#fff;
+	margin-bottom: 0;
+}
+
+.top-bar-section ul li.active > a {
+	background:#fff;
+	color: #444;
+	text-transform: uppercase;
+
+}
+
+.top-bar-section ul li.hover > a {
+	background: #ededed;
+	color: #444;
+}
+
+.top-bar-section li a:not(.button) {
+	background:#fff;
+	color:#444;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+	color: #ededed;
+	border: 0;
+	background: #fff;
+	padding: 0 10px 0 10px;
+}
+
+.top-bar-section .has-dropdown > a:after{
+	border-color: rgba(100, 100, 100, 0.5) transparent transparent transparent;
+}
+
+.top-bar .toggle-topbar.menu-icon a span {
+	color: #1a1a1a;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+	color: #1a1a1a;
+}
+.top-bar.expanded .title-area {
+	background: #ededed;
+	border-bottom: 1px solid #ededed;
+}
+
+/*media queries phones*/
+
+@media screen and (max-device-width: 480px){
+
+  .row {width:95}
+  h1 {font-size: 2em;}
+}
+
+/*tablets*/
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait){
+  .row {width:95%;}
+
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape){
+ .row {width:95%;}
+
+}
