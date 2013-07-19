@@ -190,11 +190,14 @@ p.contact {
 	padding-top: 20px;
 	margin-bottom: 20px;
 	font-size: 16px;
+
 }
 
 .panel_news p.news {
 	padding:0 40px 40px 0;
+	font-weight: 200;
 }
+
 .panel_footer {
 	color: #444;
 	padding: 80px 0 40px 0;
