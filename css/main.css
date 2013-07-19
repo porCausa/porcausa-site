@@ -226,29 +226,29 @@ p.contact {
 /*nav bar*/
 
 .top-bar{
-/*	background:#fff;*/
+	background:#ededed;
 	margin-bottom: 0;
 }
 
 .contain-to-grid {
-/*	background: #fff;*/
+	background: #ededed;
 }
 
 .top-bar-section ul li.active > a {
-/*	background:#fff;*/
-	color: #fff;
+	background:#ededed;
+	color: #444;
 	text-transform: uppercase;
 
 }
 
 .top-bar-section ul li.hover > a {
-	background: #333;
+	background: #9f9f9f;
 	color: #fff;
 }
 
 .top-bar-section li a:not(.button) {
-	/*background:#fff;*/
-	color:#fff;
+	background:#ededed;
+	color:#444;
 	font-size: 11px;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -257,23 +257,23 @@ p.contact {
 .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
 	color: #ededed;
 	border: 0;
-	/*background: #fff;*/
+	background: #ededed;
 	padding: 0 10px 0 10px;
 }
 
 .top-bar-section .has-dropdown > a:after{
-	/*border-color: rgba(100, 100, 100, 0.5) transparent transparent transparent;*/
+	border-color: rgba(100, 100, 100, 0.5) transparent transparent transparent;
 }
 
 .top-bar .toggle-topbar.menu-icon a span {
-/*	color: #1a1a1a;*/
+	color: #1a1a1a;
 }
 
 .top-bar .toggle-topbar.menu-icon a {
-/*	color: #1a1a1a;*/
+	color: #1a1a1a;
 }
 .top-bar.expanded .title-area {
-	/*background: #fff;*/
+	background: #ededed;
 	border-bottom: 1px solid #ededed;
 }
 
