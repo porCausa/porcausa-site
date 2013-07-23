@@ -285,11 +285,11 @@ p.contact {
 
 /*media queries phones*/
 
-@media screen and (max-device-width: 480px){
+@media screen and (max-device-width: 320px){
 
   .row {width:95}
+  img {display:none;}
   h1 {font-size: 2em;}
-  p.team img {display:none;}
 }
 
 /*tablets*/
