@@ -2,6 +2,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	color:#3a3a3a;
 	/*background: #fcfcfc;*/
+	border-top: 5px solid #fff;
 }
 
 .row {
@@ -13,29 +14,30 @@ hr {
 }
 
 .content_logo {
-
+	padding: 0;
 }
 
 .content_intro {
-	padding:40px 0 0 0;
+	padding:0;
 }
 
 .content_summary {
-	padding:0 0 40px 0;
+	padding:0;
 	margin:0 0 0 0;
 }
 
 .content_footer {
 	bottom:0;
 	font-size: 12px;
-	margin:100px 0 0 0;
+	margin:20px 0 40px 0;
 	color: #444;
+	text-align: center;
 }
 
 .content_search {
 	background: #dfdfdf;
-	padding:40px 0 40px 0;
-	margin: 0 0 60px 0;
+	padding:0 0 0 0;
+	margin: 0 0 30px 0;
 	-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.17);
 	-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.17);
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.17);
@@ -57,7 +59,7 @@ h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 5em;
 	line-height: 20px;
-	padding:50px 0 10px 0;
+	padding:30px 0 10px 0;
 	color: #fc2a7c;
 }
 
@@ -67,7 +69,8 @@ h2, h3, h4, h5, h6 {
 
 h5 {
 	font-weight: 700;
-	margin: 0 0 30px 0;
+	margin:0;
+	padding-bottom: 10px;
 	text-align: center;
 }
 
@@ -107,7 +110,7 @@ h4 {
 	color: #323232;
 	font-weight: 100;
 	letter-spacing: 1px;
-	line-height: 35px;
+	line-height: se;
 }
 
 h4.subheader {
@@ -147,6 +150,19 @@ p.contact {
 	padding: 40px;
 }
 
+p.logo_footer {
+	font-size: 30px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fc2a7c;
+	padding: 0;
+	margin: 0;
+	font-weight: 700;
+}
+
+p.twitter {
+	font-size: 13px;
+}
+
 /*panels*/
 
 .panel {
@@ -175,11 +191,11 @@ p.contact {
 .panel_summary {
 	font-size: 90%;
 	float: right;
-	margin: 40px 0 40px 0;
+	margin: 20px 0 20px 0;
 }
 
 .panel_headline {
-	padding: 40px 20px 30px 0;
+	padding: 10px 20px 30px 0;
 	font-size: 17px;
 }
 
@@ -187,19 +203,19 @@ p.contact {
 	color: #6c7479;
 	padding: 0;
 	font-size: 17px;
-	margin:0 0 40px 0;
+	margin:0;
 }
 
 .panel_news {
 	border-top: 1px dashed #e5e9ec;
 	border-bottom: 1px dashed #e5e9ec;
-	padding: 35px;
-	margin: 30px 0 30px 0;
+	padding: 25px;
+	margin: 0 0 30px 0;
 }
 
-.panel_footer {
+.panel_fooºer {
 	color: #444;
-	padding: 20px 0 40px 0;
+	padding: 20px 0 20px 0;
 	text-align: center;
 	height: 200px;
 
@@ -225,14 +241,16 @@ p.contact {
 
 .contain-to-grid {
 	background:#555959;
-	-webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+	padding: 5px 0 5px 0;
+	/*-webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
-	box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);*/
 }
 
 .top-bar{
 	background:#555959;
 	margin-bottom: 0;
+	padding-left: 80px;
 }
 
 .top-bar .title-area {
@@ -261,7 +279,7 @@ p.contact {
 	/*color: #ededed;*/
 	border: 0;
 	background: #555959;
-	padding: 0 10px 0 10px;
+	padding: 0;
 }
 
 .top-bar-section .dropdown li a {
