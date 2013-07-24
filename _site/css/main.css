@@ -1,7 +1,7 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	color:#3a3a3a;
-	background: #fcfcfc;
+	/*background: #fcfcfc;*/
 }
 
 .row {
@@ -17,7 +17,7 @@ hr {
 }
 
 .content_intro {
-	padding:60px 0 0 0;
+	padding:40px 0 0 0;
 }
 
 .content_summary {
@@ -36,7 +36,9 @@ hr {
 	background: #dfdfdf;
 	padding:40px 0 40px 0;
 	margin: 0 0 60px 0;
-	border-bottom: 1px solid #ededed;
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.17);
+	-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.17);
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.17);
 }
 
 label {
@@ -65,7 +67,7 @@ h2, h3, h4, h5, h6 {
 
 h5 {
 	font-weight: 700;
-	margin: 0 0 60px 0;
+	margin: 0 0 30px 0;
 	text-align: center;
 }
 
@@ -88,7 +90,7 @@ h2.subheader {
 	font-size: 1.5em;
 	color: #444;
 	line-height: 30px;
-	padding:0 0 60px 0;
+	padding:0 0 40px 0;
 	font-weight: 700;
 	letter-spacing: 2px;
 }
@@ -113,9 +115,9 @@ h4.subheader {
 }
 
 button.large, .button.large {
-	font-size: 14px;
+	font-size: 17px;
 	font-weight: normal;
-	padding: 20px 40px 20px 40px;
+	padding: 18px 40px 18px 40px;
 	border:0;
 	border-radius: 4px;
 	letter-spacing: 2px;
@@ -189,19 +191,15 @@ p.contact {
 }
 
 .panel_news {
-	padding-top: 20px;
-	margin-bottom: 20px;
-	font-size: 16px;
-
-}
-
-.panel_news p.news {
-	padding:0 40px 40px 0;
+	border-top: 1px dashed #e5e9ec;
+	border-bottom: 1px dashed #e5e9ec;
+	padding: 35px;
+	margin: 30px 0 30px 0;
 }
 
 .panel_footer {
 	color: #444;
-	padding: 80px 0 40px 0;
+	padding: 20px 0 40px 0;
 	text-align: center;
 	height: 200px;
 
@@ -225,37 +223,44 @@ p.contact {
 
 /*nav bar*/
 
+.contain-to-grid {
+	background:#555959;
+	-webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+}
+
 .top-bar{
-	background:#fff;
+	background:#555959;
 	margin-bottom: 0;
-	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.top-bar .title-area {
 }
 
 .top-bar-section ul li.active > a {
-	background:#fff;
-	color: #444;
+	background:#555959;
+	color: #fff;
 	text-transform: uppercase;
 
 }
 
 .top-bar-section ul li.hover > a {
-	background: #ededed;
-	color: #444;
+	background: #555959;
+	color: #ededed;
 }
 
 .top-bar-section li a:not(.button) {
-	background:#fff;
-	color:#444;
+	background:#555959;
+	color:#fff;
 	font-size: 14px;
 	font-weight: normal;
 }
 
 .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
-	color: #ededed;
+	/*color: #ededed;*/
 	border: 0;
-	background: #fff;
+	background: #555959;
 	padding: 0 10px 0 10px;
 }
 
@@ -268,18 +273,18 @@ p.contact {
 }
 
 .top-bar-section .has-dropdown > a:after{
-	border-color: rgba(100, 100, 100, 0.5) transparent transparent transparent;
+	/*border-color: rgba(100, 100, 100, 0.5) transparent transparent transparent;*/
 }
 
 .top-bar .toggle-topbar.menu-icon a span {
-	color: #1a1a1a;
+	/*color: #1a1a1a;*/
 }
 
 .top-bar .toggle-topbar.menu-icon a {
-	color: #1a1a1a;
+	/*color: #1a1a1a;*/
 }
 .top-bar.expanded .title-area {
-	background: #ededed;
+	background: #555959;
 	border-bottom: 1px solid #ededed;
 }
 
