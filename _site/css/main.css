@@ -71,7 +71,7 @@ h5 {
 	font-weight: 700;
 	margin:0;
 	padding-bottom: 20px;
-	padding-bottom: 10px;
+	padding-top: 10px;
 	text-align: center;
 }
 
@@ -118,7 +118,7 @@ h4.etiqueta {
 }
 
 .panel_news h4 {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight: 400;
 	padding-top: 15px;
 }
@@ -173,6 +173,7 @@ p.logo_footer {
 
 p.twitter {
 	font-size: 13px;
+	padding-bottom:20px;
 }
 
 /*panels*/
@@ -223,6 +224,11 @@ p.twitter {
 	border-bottom: 1px solid #ededed;
 	padding: 25px;
 	margin: 0 0 30px 0;
+}
+
+p.news {
+	font-size: 17px;
+
 }
 
 .panel_footer {
