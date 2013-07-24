@@ -110,11 +110,18 @@ h4 {
 	color: #323232;
 	font-weight: 100;
 	letter-spacing: 1px;
-	line-height: se;
+}
+
+.panel_news h4 {
+	font-size: 1.2em;
+	font-weight: 400;
+	padding-top: 15px;
 }
 
 h4.subheader {
 	font-size: 1.2em;
+	font-weight: 400;
+	color: #333332;
 }
 
 button.large, .button.large {
