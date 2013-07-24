@@ -112,6 +112,10 @@ h4 {
 	letter-spacing: 1px;
 }
 
+h4.etiqueta {
+	font-size: 24px;
+}
+
 .panel_news h4 {
 	font-size: 1.2em;
 	font-weight: 400;
@@ -246,6 +250,36 @@ p.twitter {
 
 /*nav bar*/
 
+.credits {
+   font-size:11px;
+   word-spacing:10px;
+   width: 100%;
+   padding:16px 0 10px 0;
+   margin:0;
+   height: 50px;
+   top: 5px;
+   font-weight: 400;
+   word-spacing: 10px;
+   background: #555959;
+}
+
+.credits_min {
+	max-width: 820px;
+	margin: 0 auto;
+
+}
+
+.credits a {
+    font-weight:400;
+    font-size:14px;
+    color:#fff;
+    padding:10px;
+}
+
+.credits a:hover{
+    color: #999;
+}
+
 .contain-to-grid {
 	background:#555959;
 	padding: 5px 0 5px 0;
@@ -320,6 +354,8 @@ p.twitter {
   .row {width:95}
   img {display:none;}
   h1 {font-size: 2em;}
+  .credits {text-align: center}
+  h4.etiqueta {font-size: 16px}
 }
 
 /*tablets*/
