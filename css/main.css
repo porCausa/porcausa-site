@@ -176,6 +176,13 @@ p.twitter {
 	padding-bottom:20px;
 }
 
+p.twitter_footer {
+	font-size: 16px;
+	word-spacing: 5px;
+	padding: 0;
+	margin-bottom:5px;
+}
+
 /*panels*/
 
 .panel {
