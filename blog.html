@@ -13,12 +13,13 @@ description: Periodismo e investigación contra la pobreza
 		<div class="row">
 				 <div class="large-12 columns">
 				 	<div class="panel_projects">
-				 		<h3 strong><a href="{{post.url}}">{{ post.title }}</a></h3>
-				 		<p small>{{ post.twitter}} ({{ post.date | date: "%d / %m / %Y" }})</p>
-				 		<p>{{ post.description}}</p>
+				 		<h2 class="blog"><a href="{{post.url}}">{{ post.title }}<a></h2>
+				 		<p small><a href="{{post.twitter}}">{{ post.twitter}}</a></p>
+				 		<p>{{ post.excerpt}}</p>
 				 		 <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="nprapps">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
-				 		<p class="twitter"><a href="{{post.url}}">Leer post</a></p> 
+				 		<p class="twitter">{{ post.date | date: "%d / %m / %Y" }}<br>
+				 			archivado en <a href="{{post.tags}}">{{post.tags}}</a></p>
 						
 				</div>
 			</div>
