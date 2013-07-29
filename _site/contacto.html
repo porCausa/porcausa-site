@@ -7,26 +7,27 @@
   <meta name="viewport" content="width=device-width" />
   <title>Fundación porCausa Periodismo e Investigación</title>
 
-  
-  <link rel="stylesheet" href="css/foundation.css" />
-  <link rel="stylesheet" href="css/main.css" />
-  
 
-  <script src="js/vendor/custom.modernizr.js"></script>
+  <link rel="stylesheet" href="/css/foundation.css" />
+  <link rel="stylesheet" href="/css/main.css" />
+
+
+  <script src="/js/vendor/custom.modernizr.js"></script>
 
   <!-- google fonts -->
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700' rel='stylesheet' type='text/css'>
-  
+
 </head>
 <body>
 
-  
+
 <div class="credits">
   <div class="credits_min">
-  <a href="index.html">Inicio</a> 
-  <a href="proyectos.html">Proyectos</a>
-  <a href="equipo.html">Equipo</a>
-  <a href="contacto.html">Contacto</a>
+  <a href="/index.html">Inicio</a>
+  <a href="/proyectos.html">Proyectos</a>
+  <a href="/equipo.html">Equipo</a>
+  <a href="/blog.html">Blog</a>
+  <a href="/contacto.html">Contacto</a>
 </div>
 </div>
 
@@ -100,7 +101,7 @@ if (!jqueryLoaded) {
     if (script.readyState && script.onload!==null){
         script.onreadystatechange= function () {
               if (this.readyState == 'complete') mce_preload_check();
-        }    
+        }
     }
 }
 var script = document.createElement('script');
@@ -173,7 +174,7 @@ function mce_init_form(){
                                             this.value = '';
                                         } else {
                                             if (/\[day\]/.test(fields[0].name)){
-                                                this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;                                           
+                                                this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;
                                             } else {
                                                 this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
                                             }
@@ -181,12 +182,12 @@ function mce_init_form(){
                                     });
                             });
                         return mce_validator.form();
-                    }, 
+                    },
                     success: mce_success_cb
                 };
       $('#mc-embedded-subscribe-form').ajaxForm(options);
-      
-      
+
+
     });
 }
 function mce_success_cb(resp){
@@ -222,11 +223,11 @@ function mce_success_cb(resp){
         try{
             if (index== -1){
                 $('#mce-'+resp.result+'-response').show();
-                $('#mce-'+resp.result+'-response').html(msg);            
+                $('#mce-'+resp.result+'-response').html(msg);
             } else {
                 err_id = 'mce_tmp_error_msg';
                 html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
-                
+
                 var input_id = '#mc_embed_signup';
                 var f = $(input_id);
                 if (ftypes[index]=='address'){
@@ -262,7 +263,7 @@ function mce_success_cb(resp){
 		</div>
 	</div>
 </div>
- 
+
 
   <!-- footer -->
 <div class="content_footer">
@@ -271,9 +272,9 @@ function mce_success_cb(resp){
 					<div class="panel_footer">
 <!-- 						<p><a href="equipo.html">EQUIPO</a> • <a href="causas.html">CAUSAS</a> • <a href="proyectos.html">PROYECTOS</a> • <a href="contacto.html">CONTACTO</a></p> -->
 					<p class="logo_footer"><a href="index.html">porCausa</a></p>
-					<p class="twitter_footer"><a href="https://twitter.com/porcausaorg">@porcausaorg</a> 
+					<p class="twitter_footer"><a href="https://twitter.com/porcausaorg">@porcausaorg</a>
 						<!-- <a href="">facebook</a>  -->
-						<a href="http://www.linkedin.com/company/porcausa/">linkedin</a> 
+						<a href="http://www.linkedin.com/company/porcausa/">linkedin</a>
 						<a href="https://github.com/porCausa">github</a></p>
 						<p>c/ Marqués de la Ensenada 2, 6º (Madrid, España)<br>
 						porcausa[at]gmail[dot]org<br>
@@ -290,10 +291,10 @@ function mce_success_cb(resp){
     + '.js><\/script>');
 </script>
 
-<script src="js/vendor/jquery.js"></script>
+<script src="/js/vendor/jquery.js"></script>
 <!-- <script src="js/foundation.min.js"></script> -->
 <!-- <script src="js/foundation/foundation.dropdown.js"></script> -->
-<script src="js/vendor/zepto.js"></script>
+<script src="/js/vendor/zepto.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -311,42 +312,42 @@ function mce_success_cb(resp){
   ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
   '.js><\/script>')
   </script>
-  
+
   <script src="js/foundation.min.js"></script>
   <!--
-  
+
   <script src="js/foundation/foundation.js"></script>
-  
+
   <script src="js/foundation/foundation.alerts.js"></script>
-  
+
   <script src="js/foundation/foundation.clearing.js"></script>
-  
+
   <script src="js/foundation/foundation.cookie.js"></script>
-  
+
   <script src="js/foundation/foundation.dropdown.js"></script>
-  
+
   <script src="js/foundation/foundation.forms.js"></script>
-  
+
   <script src="js/foundation/foundation.joyride.js"></script>
-  
+
   <script src="js/foundation/foundation.magellan.js"></script>
-  
+
   <script src="js/foundation/foundation.orbit.js"></script>
-  
+
   <script src="js/foundation/foundation.reveal.js"></script>
-  
+
   <script src="js/foundation/foundation.section.js"></script>
-  
+
   <script src="js/foundation/foundation.tooltips.js"></script>
-  
+
   <script src="js/foundation/foundation.topbar.js"></script>
-  
+
   <script src="js/foundation/foundation.interchange.js"></script>
-  
+
   <script src="js/foundation/foundation.placeholder.js"></script>
-  
+
   -->
-  
+
   <script>
     $(document).foundation();
   </script>
