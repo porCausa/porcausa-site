@@ -3,7 +3,6 @@ layout: single
 
 title: "Periodismo con causa"
 author: Gumersindo Lafuente
-date: 24 de Septiembre
 twitter: '@sindolafuente'
 description: "&#x20;<strong>Convencidos</strong> de que el periodismo debe ser un oficio al servicio de los ciudadanos y de que la base de su credibilidad y por tanto de su utilidad es el rigor, la independencia y la búsqueda sincera de la verdad en un mundo en el que todo está peligrosamente enmarañado."
 tags:
