@@ -1,7 +1,6 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	color:#3a3a3a;
-	/*background: #fcfcfc;*/
 	border-top: 5px solid #fff;
 }
 
@@ -117,6 +116,10 @@ h2.blog a {
 	font-size: 1em
 }
 
+h2.lead {
+	font-size: 1.5em
+}
+
 h3 {
 	color: #3e4248;
 	font-size: 1.2em;
@@ -165,6 +168,11 @@ p.titular {
 	font-size: 110%;
 }
 
+p.byline {
+	color: #999;
+	font-size: 90%;
+}
+
 p.team img {
 	max-width:150px;
 	padding: 15px;
@@ -199,6 +207,12 @@ p.twitter_footer {
 	word-spacing: 5px;
 	padding: 0;
 	margin-bottom:5px;
+}
+
+p.lead {
+	font-size: 90%;
+	padding:20px;
+	border:1px solid #e5e9ec;
 }
 
 /*panels*/
@@ -251,7 +265,11 @@ p.twitter_footer {
 
 p.news {
 	font-size: 17px;
+}
 
+p.small {
+	font-size: 90%;
+	color: #555;
 }
 
 .panel_footer {
