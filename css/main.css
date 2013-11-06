@@ -219,6 +219,10 @@ p.lead {
 	border:1px solid #e5e9ec;
 }
 
+p.lead:hover {
+	background:#f9f9f9;
+}
+
 /*panels*/
 
 .panel {
