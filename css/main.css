@@ -214,13 +214,26 @@ p.twitter_footer {
 }
 
 p.lead {
-	font-size: 90%;
+	font-size: 95%;
 	padding:20px;
 	border:1px solid #e5e9ec;
 }
 
 p.lead:hover {
 	background:#f9f9f9;
+}
+
+p a.banner {
+	margin-top:20px;
+	padding:5px;
+	color: #fff;
+	background: rgb(252, 42, 124);
+	border-radius: 4px;
+	font-size: 80%;
+}
+
+p a.banner :hover {
+	background: #999;
 }
 
 /*panels*/
