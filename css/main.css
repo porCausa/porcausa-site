@@ -51,6 +51,10 @@ a:hover {
 	color: #444;
 }
 
+#canvas a[href] {
+	color: #fc2a7c;
+}
+
 h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 5em;
