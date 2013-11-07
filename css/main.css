@@ -183,6 +183,10 @@ p.team img {
 	float: right;
 }
 
+p img.graph {
+	margin:20px 0 20px 0;
+}
+
 p span.description {
 	font-size: 22px;
 	font-weight: 200;
@@ -246,6 +250,22 @@ p a.banner {
 
 p a.banner :hover {
 	background: #999;
+}
+
+p.banner_center a {
+	margin-top:20px;
+	padding:10px;
+	color: #fc2a7c;
+	background: #fff;
+	border: 1px solid #fc2a7c;
+	border-radius: 4px;
+	font-size: 80%;
+	text-align: center;
+	font-weight: bold;
+}
+
+p.banner_center a:hover {
+	background: #f9f9f9;
 }
 
 /*panels*/
