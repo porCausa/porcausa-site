@@ -184,7 +184,8 @@ p.team img {
 }
 
 p img.graph {
-	margin:20px 0 20px 0;
+	padding:0;
+	margin:;
 }
 
 p span.description {
@@ -227,31 +228,6 @@ p.lead:hover {
 	background:#f9f9f9;
 }
 
-.banner a {
-	padding:10px;
-	color: #fff;
-	background: rgb(252, 42, 124);
-	border-radius: 4px;
-	font-size: 80%;
-}
-
-.banner a:hover {
-	background: #999;
-}
-
-p a.banner {
-	margin-top:20px;
-	padding:5px;
-	color: #fff;
-	background: rgb(252, 42, 124);
-	border-radius: 4px;
-	font-size: 80%;
-}
-
-p a.banner :hover {
-	background: #999;
-}
-
 p.banner_center a {
 	margin-top:20px;
 	padding:10px;
@@ -266,6 +242,15 @@ p.banner_center a {
 
 p.banner_center a:hover {
 	background: #f9f9f9;
+}
+
+.sub-nav dd.active a {
+	background: rgb(252, 42, 124);
+}
+
+.sub-nav dd.active a:hover {
+	background: #ededed;
+	color: rgb(252, 42, 124);
 }
 
 /*panels*/
