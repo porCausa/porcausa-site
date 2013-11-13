@@ -5,6 +5,8 @@ title: "Bondades y riesgos de las ayudas públicas contra la pobreza"
 author: porCausa
 twitter: '@porCausaorg'
 description: "La Fundación porCausa nace con el propósito de ofrecer a la sociedad información de calidad que ayude a promover debates públicos sobre asuntos relacionados con la pobreza y la desigualdad. Pocos son tan importantes como el análisis de los recursos destinados a la lucha contra la pobreza, dentro y fuera de nuestro país. "
+tags:
+- periodismo
 ---
 La Fundación porCausa nace con el propósito de ofrecer a la sociedad información de calidad que ayude a promover el debate público sobre asuntos relacionados con la pobreza y la desigualdad. Pocos son tan importantes como el análisis de los recursos destinados a la lucha contra la pobreza, dentro y fuera de nuestro país.
 
