@@ -51,7 +51,7 @@ label {
 
 a {
 	color: #fc2a7c;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 a:hover {
@@ -306,7 +306,7 @@ p.banner_center a:hover {
 .panel_highlight {
 	color: #6c7479;
 	padding: 20px 0 20px 0;
-	font-size: 16px;
+	font-size: 15px;
 	margin:0;
 	text-align: center;
 }
