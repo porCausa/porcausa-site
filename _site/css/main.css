@@ -1,7 +1,8 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	color:#3a3a3a;
+	color:#444443;
 	border-top: 5px solid #fff;
+	font-size: 1.1em;
 }
 
 .row {
@@ -88,7 +89,7 @@ h5 {
 }
 
 h5.small {
-	font-size: 90%;
+	font-size: 80%;
 	font-weight: 400;
 	text-transform: uppercase;
 	border-bottom: 1px solid #ededed;
@@ -252,7 +253,9 @@ p.banner_center a:hover {
 }
 
 .sub-nav dd.active a {
+	font-size: 90%;
 	background: rgb(252, 42, 124);
+	font-weight: normal;
 }
 
 .sub-nav dd.active a:hover {
@@ -321,7 +324,7 @@ p.news {
 }
 
 p.small {
-	font-size: 90%;
+	font-size: 80%;
 	color: #555;
 }
 
@@ -343,6 +346,18 @@ p.small {
 	border: 1px solid #e5e9ec;
 	padding: 20px;
 	margin: 30px 0 30px 0;
+}
+
+.panel_link {
+	border-top: 1px solid #f9f9f9;
+	border-bottom: 1px solid #f9f9f9;
+	padding: 20px;
+	margin:20px 0 20px 0;
+	background: #ededed;
+}
+
+.panel_link p {
+	font-size: 85%;
 }
 
 .panel_team {
@@ -367,7 +382,8 @@ p.small {
    top: 5px;
    font-weight: 400;
    word-spacing: 10px;
-   background: #555959;
+   /*background: #555959;*/
+   border-bottom: 1px solid #f9f9f9;
 }
 
 .credits_headline {
@@ -392,7 +408,7 @@ p.small {
 .credits a {
     font-weight:400;
     font-size:14px;
-    color:#fff;
+    color:#111112;
     padding:10px;
 }
 
