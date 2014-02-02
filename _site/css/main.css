@@ -381,8 +381,9 @@ p.small {
    height: 50px;
    top: 5px;
    font-weight: 400;
-   word-spacing: 10px;
+   word-spacing: 1em;
    border-bottom: 1px solid #f9f9f9;
+   /*text-align: center;*/
 }
 
 .credits_headline {
@@ -406,7 +407,7 @@ p.small {
 
 .credits a {
     font-weight:400;
-    font-size:11px;
+    font-size:1em;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color:#000;
