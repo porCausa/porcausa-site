@@ -374,7 +374,7 @@ p.small {
 
 .credits {
    font-size:11px;
-   word-spacing:10px;
+   word-spacing:5px;
    width: 100%;
    padding:16px 0 10px 0;
    margin:0;
@@ -382,7 +382,6 @@ p.small {
    top: 5px;
    font-weight: 400;
    word-spacing: 10px;
-   /*background: #555959;*/
    border-bottom: 1px solid #f9f9f9;
 }
 
@@ -395,7 +394,7 @@ p.small {
    height: 30px;
    top: 5px;
    font-weight: 400;
-   word-spacing: 0;
+   word-spacing: -1;
    text-align: center;
 }
 
@@ -407,8 +406,11 @@ p.small {
 
 .credits a {
     font-weight:400;
-    font-size:14px;
-    color:#111112;
+    font-size:11px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color:#000;
+    font-weight: bold;
     padding:10px;
 }
 
