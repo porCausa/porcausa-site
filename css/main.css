@@ -191,8 +191,11 @@ p.byline {
 }
 
 p.team img {
-	max-width:200px;
+	max-width:180px;
 	padding: 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: block;
 	float: right;
 }
 
