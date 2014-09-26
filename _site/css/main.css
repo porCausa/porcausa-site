@@ -14,11 +14,16 @@ hr {
 }
 
 .content_logo {
-	padding: 0;
+	padding: 0 0 20px 0;
 }
 
 .content_intro {
-	padding:0;
+	padding: 10px 0 20px 0;
+	background: #3c4e5a;
+}
+
+.content_intro h4, .content_intro h4 a {
+	color: #fff;
 }
 
 .content_summary {
