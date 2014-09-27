@@ -423,7 +423,7 @@ p.small {
     font-size:1.1em;
     text-transform: uppercase;
     color:#888;
-    padding:5px;
+    padding:10px;
 }
 
 .credits a:hover{
@@ -506,6 +506,7 @@ p.small {
   h1 {font-size: 2em;}
   .credits {text-align: center}
   .mc-field-group h4.etiqueta {font-size: 16px}
+  .credits a {padding:5px;
 }
 
 /*tablets*/
