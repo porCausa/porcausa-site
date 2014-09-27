@@ -194,7 +194,7 @@ p.byline {
 	font-size: 90%;
 }
 
-p.team img {
+.panel_projects p.team img {
 	max-width:180px;
 	padding: 20px;
 	border-radius: 5px;
@@ -227,7 +227,7 @@ p.logo_footer {
 }
 
 p.twitter {
-	font-size: 13px;
+	font-size: 12px;
 	padding-bottom:20px;
 }
 
