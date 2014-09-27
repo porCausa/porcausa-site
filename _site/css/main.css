@@ -1,8 +1,8 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	color:#444443;
+	color:#333332;
 	border-top: 5px solid #fff;
-	font-size: 1.1em;
+	font-size: 16px;
 }
 
 .row {
@@ -70,7 +70,7 @@ a:hover {
 
 h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 5em;
+	font-size: 4.5em;
 	line-height: 20px;
 	padding:30px 0 10px 0;
 	color: #fc2a7c;
@@ -81,7 +81,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .mc-field-group h4.etiqueta {
-	font-size: 20px;
+	font-size: 1em;
 	font-weight: 400;
 }
 
@@ -117,10 +117,10 @@ h2 a:hover {
 }
 
 h2.subheader {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	color: #444;
 	line-height: 30px;
-	padding:0 0 30px 0;
+	padding:0 0 40px 0;
 	font-weight: 700;
 	letter-spacing: 2px;
 }
@@ -161,6 +161,10 @@ h4.etiqueta {
 	padding-top: 15px;
 }
 
+.panel_highlight h4 {
+	font-size: 1.3em;
+}
+
 h4.subheader {
 	font-size: 1.2em;
 	font-weight: 400;
@@ -168,7 +172,7 @@ h4.subheader {
 }
 
 button.large, .button.large {
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: normal;
 	padding: 18px 40px 18px 40px;
 	border:0;
@@ -386,10 +390,7 @@ p.small {
    width: 100%;
    padding:16px 0 10px 0;
    margin:0;
-   height: 50px;
    top: 5px;
-   font-weight: 400;
-   word-spacing: 1em;
    border-bottom: 1px solid #f9f9f9;
    /*text-align: center;*/
 }
@@ -400,10 +401,8 @@ p.small {
    width: 100%;
    padding:0;
    margin:0;
-   height: 30px;
-   top: 5px;
+   height: 20px;
    font-weight: 400;
-   word-spacing: -1;
    text-align: center;
 }
 
@@ -416,7 +415,6 @@ p.small {
 .credits a {
     font-weight:400;
     font-size:1em;
-    letter-spacing: 0.5px;
     text-transform: uppercase;
     color:#000;
     font-weight: bold;
