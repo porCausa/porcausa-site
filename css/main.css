@@ -162,7 +162,7 @@ h4.etiqueta {
 }
 
 .panel_highlight h4 {
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
 h4.subheader {
@@ -309,6 +309,7 @@ p.banner_center a:hover {
 .panel_headline {
 	padding: 10px 20px 30px 0;
 	font-size: 17px;
+	text-align: center;
 }
 
 .panel_search {
@@ -391,8 +392,7 @@ p.small {
    padding:16px 0 10px 0;
    margin:0;
    top: 5px;
-   border-bottom: 1px solid #f9f9f9;
-   /*text-align: center;*/
+   /*border-bottom: 1px solid #f9f9f9;*/
 }
 
 .credits_headline {
@@ -403,26 +403,23 @@ p.small {
    margin:0;
    height: 20px;
    font-weight: 400;
-   text-align: center;
 }
 
 .credits_min {
-	max-width: 820px;
+	max-width: 850px;
 	margin: 0 auto;
-
 }
 
 .credits a {
-    font-weight:400;
-    font-size:1em;
+    font-weight:normal;
+    font-size:1.1em;
     text-transform: uppercase;
-    color:#000;
-    font-weight: bold;
+    color:#888;
     padding:10px;
 }
 
 .credits a:hover{
-    color: #999;
+    color: #333;
 }
 
 .contain-to-grid {
